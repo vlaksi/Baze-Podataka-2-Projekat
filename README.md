@@ -49,3 +49,17 @@ Ono sto kasnije nema smisla zbog prevodjenja
   <br>
   
 </details>
+
+
+<details>
+  <summary> Automatsko prevodjenje ER modela u relacioni model </summary> <br>
+
+  - u data modeleru napravimo ER model kao sto smo u specifikaciji to ucinili 
+  - izgenerisemo DDL skripte 
+  - napravimo korisnicku semu kao na BP1 , pokrenemo te skripte kako bi se izgnerisale tabele
+  - popunimo te tabele nekim podacima 
+  - napravimo jedan, dva slozenija SQL upita (bilo koji upit koji u sebi ima neki spoj, neko grupisanje, neku agregacionu f-ju)(ne mora imati nezavisne ugnjezdene upite, zavisne ugnjezdene upite, rekurziju, neke poglede..)
+    - kada kreiramo taj upit, on treba da odgovara na neko smisleno pitanje u nasem informacionom sistemu 
+  
+</details>
+
