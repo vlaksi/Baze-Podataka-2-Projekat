@@ -68,6 +68,20 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="igGsl" id="D8220C69-E1B9-50DF-06CA-826BF9D92F5A">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-14 23:27:34 UTC</createdTime>
+<generatorID>29FD025B-09CB-17FC-E2B6-C06EF7A85F7A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<referedAttribute>4793D635-0CE1-38AA-906B-BD2664183D0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4FB40715-25B0-F4D7-6474-1D0CF843A765" name="Staza PK">
