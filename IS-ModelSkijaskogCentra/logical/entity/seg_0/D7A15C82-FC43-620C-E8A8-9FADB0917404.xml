@@ -55,20 +55,6 @@
 <dataTypeSize>16 CHAR</dataTypeSize>
 <ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idSki" id="F3612B44-3F8F-AA6C-836C-7471AA640276">
-<createdBy>Vaksi</createdBy>
-<createdTime>2021-01-14 23:25:45 UTC</createdTime>
-<generatorID>B08B7305-8A60-A575-99C9-4B9BDF7A82C3</generatorID>
-<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
-<engineerTo>
-<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
-</engineerTo>
-<referedAttribute>7CA9208A-D7EC-8F5A-D2FC-5F53E002CC3B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="19FCBCEF-B347-3813-0F93-E96DC551169C" name="SkiPass PK">
