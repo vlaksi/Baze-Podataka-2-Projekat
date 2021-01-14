@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="IS-ModelSkijaskogCentra" id="83A04D55-919D-244C-BF55-7F1A916923EB" version="3.5">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-14 22:19:31 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>83A04D55-919D-244C-BF55-7F1A916923EB</designId>
+</OSDM_Design>
