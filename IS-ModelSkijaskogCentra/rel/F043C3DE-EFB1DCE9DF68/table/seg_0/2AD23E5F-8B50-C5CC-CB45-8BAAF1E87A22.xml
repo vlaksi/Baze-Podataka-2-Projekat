@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AD23E5F-8B50-C5CC-CB45-8BAAF1E87A22" name="SkiPass">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>D7A15C82-FC43-620C-E8A8-9FADB0917404</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSps" id="EA9589C8-BE67-AF74-A1F0-7AF5C9398C1F">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>C9F79DBE-853E-F411-3501-AD2C68520D5A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipSps" id="DEE1F159-39B4-40C1-1122-D25282976B90">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>463D9938-0950-6A12-BCE7-D2579982AC9A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datIstSps" id="7DC86C5B-3499-63CA-601F-73C3B543B6A4">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>F4A10823-5960-F334-8EC3-825084C279E8</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5CCBC31-D178-DAEB-F8D5-E95B366E8775" name="SkiPass_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>19FCBCEF-B347-3813-0F93-E96DC551169C</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9589C8-BE67-AF74-A1F0-7AF5C9398C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

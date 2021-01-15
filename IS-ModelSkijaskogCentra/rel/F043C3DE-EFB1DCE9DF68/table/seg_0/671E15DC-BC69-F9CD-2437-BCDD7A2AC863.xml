@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="671E15DC-BC69-F9CD-2437-BCDD7A2AC863" name="Skijas">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>23DF4C1D-0588-5D30-4E24-E654FBC90F0D</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSki" id="CCB6FCB5-9EE2-B867-FDBE-12489E37955A">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>7CA9208A-D7EC-8F5A-D2FC-5F53E002CC3B</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imeSki" id="6F6F4586-4C0C-9188-B4AC-3C5C25516DF5">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>A07D1DC7-537B-83F0-391A-CA79F30AF902</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF5109DE-E251-370F-0C10-93ED87402C3D" name="Skijas_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>F7215152-C7C4-9849-12B3-89DC47CE9602</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB6FCB5-9EE2-B867-FDBE-12489E37955A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

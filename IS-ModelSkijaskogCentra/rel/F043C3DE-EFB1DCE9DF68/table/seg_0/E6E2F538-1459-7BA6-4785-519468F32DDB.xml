@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6E2F538-1459-7BA6-4785-519468F32DDB" name="SneznaVozila">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>F7DB625D-8CE9-E3A1-B592-9339746F4EDC</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSv" id="E231E2CF-7848-9E09-4CF1-0436D204A64F">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>D4E1569D-37C9-15BE-353D-1A91A6C0BA65</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipSv" id="D1FE0AE3-1626-1BD9-586B-C26D335BF21F">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>419B6B93-CF27-1435-A6AD-56D83B2E0E49</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5696ACCC-CADE-542A-B589-F9D980C80CB9" name="SneznaVozila_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>70884B9F-5398-F1F6-6B9B-AFC0FDF8D471</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E231E2CF-7848-9E09-4CF1-0436D204A64F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

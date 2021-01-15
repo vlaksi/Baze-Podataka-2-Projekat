@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56A91C65-AB6A-DC1C-5149-F4DE97E27242" name="SkiPassSkijas">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>73E57837-6980-453E-2ED2-231E9CEAC242</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Skijas_idSki" id="9A75ADD4-976E-0293-50F7-5088A5DC503D">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>F835242D-8C4C-6131-D333-0778BC04AA80</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61A32710-8750-6C6E-A751-EFBB6E0BAD6F" referredColumn="CCB6FCB5-9EE2-B867-FDBE-12489E37955A"/>
+</associations>
+</Column>
+<Column name="SkiPass_idSps" id="89391917-1412-FA92-B3F8-830C7092B7BC">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>3DAD2E4A-E1FA-7E70-D88D-D504C8589FC6</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7B83CB4-B3FE-1C39-02E6-6405A9FEC88E" referredColumn="EA9589C8-BE67-AF74-A1F0-7AF5C9398C1F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CAB23DA-B786-FDCD-50FC-EAAA114116BB" name="SkiPassSkijas_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>523EC1E9-D396-90F2-F946-75582B168848</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A75ADD4-976E-0293-50F7-5088A5DC503D"/>
+<colUsage columnID="89391917-1412-FA92-B3F8-830C7092B7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="098362BA-1E70-159B-D107-8EE6013F9D2F" name="SkiPassSkijas_Skijas_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>C5E6F610-DDBE-2544-767F-668AB2719FD9</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A75ADD4-976E-0293-50F7-5088A5DC503D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C3FF581-0C4F-E9E2-2061-E52902A196F8" name="SkiPassSkijas_SkiPass_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>E245CBC9-8018-3083-F9F7-648A093BB323</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89391917-1412-FA92-B3F8-830C7092B7BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

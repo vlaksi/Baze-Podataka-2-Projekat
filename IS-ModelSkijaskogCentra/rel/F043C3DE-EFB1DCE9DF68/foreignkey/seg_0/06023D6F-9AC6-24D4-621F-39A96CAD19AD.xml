@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06023D6F-9AC6-24D4-621F-39A96CAD19AD" containerWithKeyObject="3DDE3166-0636-FB50-8607-7361DD1EB0DB" localFKIndex="9BCC60E6-04F2-1CDE-852C-7D8301B510AE" name="Relation_1_SkiInstruktor_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:40:19 UTC</createdTime>
+<generatorID>073AB988-FAFD-BE31-FFA8-1F9498A387AF</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>SkiInstruktor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8B2E890-D347-80A6-0282-7E78CB77CD41</referredTableID>
+<keyObject>B2CB7BD7-C5B8-C2EA-2E41-048646DFD99E</keyObject>
+<referredKeyID>B2CB7BD7-C5B8-C2EA-2E41-048646DFD99E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idIns</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
