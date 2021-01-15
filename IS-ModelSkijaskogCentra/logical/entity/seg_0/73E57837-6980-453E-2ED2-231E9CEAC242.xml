@@ -44,4 +44,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="523EC1E9-D396-90F2-F946-75582B168848" name="SkiPassSkijas PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:01:20 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F835242D-8C4C-6131-D333-0778BC04AA80</attributeRef>
+<attributeRef>3DAD2E4A-E1FA-7E70-D88D-D504C8589FC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
