@@ -24,13 +24,21 @@
 <createdTime>2021-01-15 00:40:19 UTC</createdTime>
 <generatorID>54AF30AD-BF56-FE41-EADD-2B68ACEEF90E</generatorID>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<constraintName>CH_INH_Oprema</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>32 CHAR</dataTypeSize>
-<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="Kaciga" description="entity Kaciga"/>
+<valueDef value="Oprema" description="entity Oprema"/>
+<valueDef value="Pancerice" description="entity Pancerice"/>
+<valueDef value="Skije" description="entity Skije"/>
+<valueDef value="Stapovi" description="entity Stapovi"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
 </Column>
 <Column name="Skijas_idSki" id="0AF367CA-91C4-7DBC-8822-C612B645F545">
 <createdBy>Vaksi</createdBy>

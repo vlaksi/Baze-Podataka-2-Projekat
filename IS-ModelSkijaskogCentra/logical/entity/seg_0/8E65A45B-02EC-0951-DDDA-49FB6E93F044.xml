@@ -14,6 +14,8 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>54AF30AD-BF56-FE41-EADD-2B68ACEEF90E</discriminatorAttributeID>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="idOpr" id="B7706352-F2C2-607E-D679-0CA18AF92999">
 <createdBy>Vaksi</createdBy>

@@ -14,5 +14,6 @@
 <refColNames>idOpr</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
+<discriminatorValue>Skije</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>
