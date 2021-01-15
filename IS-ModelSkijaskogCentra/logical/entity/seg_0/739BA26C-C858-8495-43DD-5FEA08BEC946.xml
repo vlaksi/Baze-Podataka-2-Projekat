@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739BA26C-C858-8495-43DD-5FEA08BEC946" name="Stapovi">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:19:49 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8E65A45B-02EC-0951-DDDA-49FB6E93F044</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idStp" id="BB904FEC-510F-F1E4-05DD-23F528A0A13A">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:19:55 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visStp" id="5911A023-F99C-786D-B839-1A348682DD59">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:20:07 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C7DBCF3-244B-93AC-BCD7-BA42108BC96E" name="Stapovi PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-15 00:20:05 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB904FEC-510F-F1E4-05DD-23F528A0A13A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
