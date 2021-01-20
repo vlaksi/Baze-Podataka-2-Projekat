@@ -31,7 +31,6 @@
 <dataTypeSize>9</dataTypeSize>
 <listOfValues>
 <valueDef value="Kaciga" description="entity Kaciga"/>
-<valueDef value="Oprema" description="entity Oprema"/>
 <valueDef value="Pancerice" description="entity Pancerice"/>
 <valueDef value="Skije" description="entity Skije"/>
 <valueDef value="Stapovi" description="entity Stapovi"/>
@@ -39,22 +38,6 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <isDiscriminatorColumn>true</isDiscriminatorColumn>
-</Column>
-<Column name="Skijas_idSki" id="0AF367CA-91C4-7DBC-8822-C612B645F545">
-<createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:40:19 UTC</createdTime>
-<generatorID>C3F4A236-DCB7-5DB3-5776-5CCA6D93E8DB</generatorID>
-<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="66B8FAA9-2CC4-B708-B7E8-A4A6BEA6280C" referredColumn="CCB6FCB5-9EE2-B867-FDBE-12489E37955A"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -68,17 +51,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5C3406A5-1C9B-1C9C-0619-7CFA83B34D2C"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="10249602-4B51-E773-C346-A482F7A01582" name="Oprema_Skijas_FK">
-<createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:40:19 UTC</createdTime>
-<generatorID>2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F</generatorID>
-<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0AF367CA-91C4-7DBC-8822-C612B645F545"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

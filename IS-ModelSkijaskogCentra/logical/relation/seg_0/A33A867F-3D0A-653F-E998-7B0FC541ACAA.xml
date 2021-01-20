@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="A33A867F-3D0A-653F-E998-7B0FC541ACAA">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uplacuje" directorySegmentName="seg_0" id="A33A867F-3D0A-653F-E998-7B0FC541ACAA">
 <createdBy>Vaksi</createdBy>
 <createdTime>2021-01-14 23:21:59 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>

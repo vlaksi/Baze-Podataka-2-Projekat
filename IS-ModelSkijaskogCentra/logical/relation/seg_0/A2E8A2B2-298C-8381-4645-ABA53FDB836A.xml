@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="FB4832EC-FC6C-35CF-0BF2-304BD227F3AE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vozi" directorySegmentName="seg_0" id="A2E8A2B2-298C-8381-4645-ABA53FDB836A">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-14 23:58:10 UTC</createdTime>
+<createdTime>2021-01-20 02:26:24 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
@@ -10,7 +10,7 @@
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>73E57837-6980-453E-2ED2-231E9CEAC242</sourceEntity>
+<sourceEntity>D76409C3-6BED-6950-7E89-95EB50FA7FFE</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>4CDC6E89-5743-B45B-C16F-0C7B91F8EE80</targetEntity>
 <transferable>true</transferable>

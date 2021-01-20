@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65BD566E-DF49-C4E7-4996-43114A6ED945" name="Kaciga">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D76409C3-6BED-6950-7E89-95EB50FA7FFE" name="Rentiranje">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:17:48 UTC</createdTime>
+<createdTime>2021-01-20 02:24:30 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
@@ -11,49 +11,51 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>8E65A45B-02EC-0951-DDDA-49FB6E93F044</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idKcg" id="02FD7BDA-8CBE-0B6B-694B-D66504F32535">
+<Attribute name="idSki" id="415F432A-2608-70AA-6E60-BB8A8401F905">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:17:56 UTC</createdTime>
+<createdTime>2021-01-20 02:24:56 UTC</createdTime>
+<generatorID>03A26B5A-9369-6737-88DB-38898805BFDB</generatorID>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
 </engineerTo>
+<referedAttribute>7CA9208A-D7EC-8F5A-D2FC-5F53E002CC3B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="naoKcg" id="7EED218C-8EFB-8532-19D2-9B1C1CAE5DB9">
+<Attribute name="idSv" id="BEBF6EF4-85C3-8F7A-CBDF-895F76B1FE59">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:18:13 UTC</createdTime>
+<createdTime>2021-01-20 02:25:19 UTC</createdTime>
+<generatorID>EE713643-3721-BEF5-4980-1942BB94179C</generatorID>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D4E1569D-37C9-15BE-353D-1A91A6C0BA65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0AC203EC-5DA9-2915-429B-DA0249B6EFB0" name="Kaciga PK">
+<identifier id="2EF922A0-B121-9A06-CBFB-2F93E5465833" name="Rentira PK">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:19:32 UTC</createdTime>
+<createdTime>2021-01-20 02:25:00 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>02FD7BDA-8CBE-0B6B-694B-D66504F32535</attributeRef>
+<attributeRef>415F432A-2608-70AA-6E60-BB8A8401F905</attributeRef>
+<attributeRef>BEBF6EF4-85C3-8F7A-CBDF-895F76B1FE59</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

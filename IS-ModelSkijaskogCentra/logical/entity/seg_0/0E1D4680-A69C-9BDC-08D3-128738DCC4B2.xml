@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="igGsl" id="4793D635-0CE1-38AA-906B-BD2664183D0F">
+<Attribute name="idGsl" id="4793D635-0CE1-38AA-906B-BD2664183D0F">
 <createdBy>Vaksi</createdBy>
 <createdTime>2021-01-14 23:01:05 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>

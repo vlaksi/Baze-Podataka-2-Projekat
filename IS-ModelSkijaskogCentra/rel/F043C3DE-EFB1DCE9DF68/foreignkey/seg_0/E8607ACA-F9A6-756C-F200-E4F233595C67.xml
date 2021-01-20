@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8607ACA-F9A6-756C-F200-E4F233595C67" containerWithKeyObject="C442AAB1-1471-CC94-8172-0D08018DCABF" localFKIndex="75BCEB7F-8D5D-3236-6FB1-F8CC15F59A4E" name="Kacigav1_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:39:17 UTC</createdTime>
+<generatorID>CB01155A-7C09-3166-858E-2359D1BB3637</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Oprema</referredTableLongName>
+<arc>B31E4847-17A9-6C8F-BA66-78794C31B765</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>998F5751-9D3D-18A4-CFA5-23659E839B57</referredTableID>
+<keyObject>31658271-AAB5-C81F-4BFF-CBF5A28899A7</keyObject>
+<referredKeyID>31658271-AAB5-C81F-4BFF-CBF5A28899A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idOpr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Kaciga</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

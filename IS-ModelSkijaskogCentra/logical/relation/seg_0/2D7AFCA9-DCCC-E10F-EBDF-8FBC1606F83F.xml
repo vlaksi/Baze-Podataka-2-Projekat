@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Iznajmljuje" directorySegmentName="seg_0" id="2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F">
 <createdBy>Vaksi</createdBy>
 <createdTime>2021-01-15 00:34:40 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>23DF4C1D-0588-5D30-4E24-E654FBC90F0D</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>8E65A45B-02EC-0951-DDDA-49FB6E93F044</targetEntity>

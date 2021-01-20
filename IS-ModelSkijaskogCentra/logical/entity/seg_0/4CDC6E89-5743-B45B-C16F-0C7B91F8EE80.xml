@@ -68,7 +68,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="igGsl" id="D8220C69-E1B9-50DF-06CA-826BF9D92F5A">
+<Attribute name="idGsl" id="D8220C69-E1B9-50DF-06CA-826BF9D92F5A">
 <createdBy>Vaksi</createdBy>
 <createdTime>2021-01-14 23:27:34 UTC</createdTime>
 <generatorID>29FD025B-09CB-17FC-E2B6-C06EF7A85F7A</generatorID>

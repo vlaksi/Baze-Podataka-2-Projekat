@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B31E4847-17A9-6C8F-BA66-78794C31B765" name="FKArc_2">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:39:17 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>998F5751-9D3D-18A4-CFA5-23659E839B57</table>
+<discriminatorColumn>BC3E2D21-D9EE-25FE-980C-B99E7507365E</discriminatorColumn>
+<fkeys>
+<fkeyID>E8607ACA-F9A6-756C-F200-E4F233595C67</fkeyID>
+<fkeyID>53515A52-1441-BFF0-CDC5-F37E489CB1A6</fkeyID>
+<fkeyID>17A02651-E479-6E92-AEB9-4362E70E9CD0</fkeyID>
+<fkeyID>B5BB90D8-C290-528B-941A-4302893EBE5A</fkeyID>
+</fkeys>
+</FKArc>

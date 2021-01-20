@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5BB90D8-C290-528B-941A-4302893EBE5A" containerWithKeyObject="3FF455FD-41AA-1374-7685-092E7582BE2B" localFKIndex="8DC13291-7120-8B3E-99E5-EE57DE218BE0" name="Stapoviv1_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:39:17 UTC</createdTime>
+<generatorID>1367EB56-DB06-91BE-D12D-5F49FE91B60C</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Oprema</referredTableLongName>
+<arc>B31E4847-17A9-6C8F-BA66-78794C31B765</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>998F5751-9D3D-18A4-CFA5-23659E839B57</referredTableID>
+<keyObject>31658271-AAB5-C81F-4BFF-CBF5A28899A7</keyObject>
+<referredKeyID>31658271-AAB5-C81F-4BFF-CBF5A28899A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idOpr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Stapovi</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

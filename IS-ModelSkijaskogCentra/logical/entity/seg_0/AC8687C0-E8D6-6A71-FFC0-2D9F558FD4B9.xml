@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739BA26C-C858-8495-43DD-5FEA08BEC946" name="Stapovi">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC8687C0-E8D6-6A71-FFC0-2D9F558FD4B9" name="Skije">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:19:49 UTC</createdTime>
+<createdTime>2021-01-20 01:55:24 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
@@ -16,43 +16,45 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idStp" id="BB904FEC-510F-F1E4-05DD-23F528A0A13A">
+<Attribute name="visSij" id="43A3232F-4921-85EF-DC4B-8E820D1BF7B8">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:19:55 UTC</createdTime>
+<createdTime>2021-01-20 01:55:46 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="visStp" id="5911A023-F99C-786D-B839-1A348682DD59">
+<Attribute name="sirSij" id="4770EC45-7E6C-2C72-D398-076C5BB8C7E5">
 <createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:20:07 UTC</createdTime>
+<createdTime>2021-01-20 01:56:19 UTC</createdTime>
 <ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
 <engineerTo>
 <item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipSij" id="4B01A284-69FB-5193-5F45-2F18EB95E6BF">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 01:56:31 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<engineerTo>
+<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5C7DBCF3-244B-93AC-BCD7-BA42108BC96E" name="Stapovi PK">
-<createdBy>Vaksi</createdBy>
-<createdTime>2021-01-15 00:20:05 UTC</createdTime>
-<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
-<engineerTo>
-<item key="F043C3DE-B81D-BE75-7C7A-EFB1DCE9DF68" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>BB904FEC-510F-F1E4-05DD-23F528A0A13A</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

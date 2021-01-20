@@ -57,7 +57,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GorskaSluzba_igGsl" id="DCDFF93A-D83D-1FE5-AB60-55033559FDB2">
+<Column name="GorskaSluzba_idGsl" id="DCDFF93A-D83D-1FE5-AB60-55033559FDB2">
 <createdBy>Vaksi</createdBy>
 <createdTime>2021-01-15 00:40:19 UTC</createdTime>
 <generatorID>D8220C69-E1B9-50DF-06CA-826BF9D92F5A</generatorID>
