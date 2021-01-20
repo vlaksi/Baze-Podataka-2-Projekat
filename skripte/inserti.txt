@@ -1,0 +1,29 @@
+/* LICENCA */
+insert into licenca values(1,'deciji','2021-12-09');
+insert into licenca values(2,'odrasli','2021-02-17');
+insert into licenca values(3,'odrasli','2021-11-07');
+
+
+/* CAS SKIJANJA */
+insert into casskijanja values(1,2000);
+insert into casskijanja values(2,2700);
+insert into casskijanja values(3,3100);
+
+/* SKIJAS */
+insert into skijas values(1,'Nikola');
+insert into skijas values(2,'Pavle');
+insert into skijas values(3,'Jovan');
+
+/* GORSKA SLUZBA */
+insert into gorskasluzba values(1,0610122343);
+
+/* STAZA */
+insert into staza values(4,'plava',1.5,1,1);
+insert into staza values(5,'crna',1.9,1,1);
+insert into staza values(6,'crvena',2.3,1,1);
+insert into staza values(7,'plava',1.5,1,1);
+insert into staza values(8,'crna',1.9,1,1);
+insert into staza values(9,'crvena',2.3,1,1);
+
+/* SKI PASS */
+insert into skipass values(1, 'deciji', '2021-01-31',1);
