@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59F94FEE-A84F-FC88-E8CB-D4EFA2F34D58" containerWithKeyObject="D20AC02B-3AF7-0D3F-F0E9-D9A3BC4F4D05" localFKIndex="7882844A-4FCE-DDAD-0D93-A65966DC7766" name="Iznajmljuje_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Oprema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD388C5C-30B2-9DA4-5AE0-AD0CD2082FF7</referredTableID>
+<keyObject>7C1C9C16-48F2-E7D4-3329-D615548F5CE2</keyObject>
+<referredKeyID>7C1C9C16-48F2-E7D4-3329-D615548F5CE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idOpr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

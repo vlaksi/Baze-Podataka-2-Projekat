@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91848E3E-AE55-1FF1-AE9B-BED9D6891D52" name="CasSkijanja">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>D16F164C-B861-349D-DB80-10419A8A2FA1</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCski" id="E77BF124-291D-E9D9-D9CB-2E82710FDAFA">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>F2807093-AF58-C958-0A68-72C695B3EFFC</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="D083F3B7-F09C-1134-BB87-DB0A0FD31ADD">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>D10F0673-9A71-F11E-00C4-ED7250A9905E</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE814A91-D851-6A63-DDCF-7E2314F02919" name="CasSkijanja_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>E4CBB71A-68D5-68C2-C2F6-AC7D2D7C025B</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E77BF124-291D-E9D9-D9CB-2E82710FDAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D20AC02B-3AF7-0D3F-F0E9-D9A3BC4F4D05" name="Iznajmljuje">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Skijas_idSki" id="CAC21B93-8480-21F5-6E66-1F5D56ACFBB3">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DD5050E-4577-5C54-7E41-6263FF1CDFB6" referredColumn="1FFC6FCB-CCF4-2847-6EFE-9EE96BEBD17E"/>
+</associations>
+</Column>
+<Column name="Oprema_idOpr" id="4CD28B6A-1E1E-D853-49E5-914331FA6ABE">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59F94FEE-A84F-FC88-E8CB-D4EFA2F34D58" referredColumn="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F2B7E5C-6C33-2520-C177-EC88508234A4" name="Iznajmljuje_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC21B93-8480-21F5-6E66-1F5D56ACFBB3"/>
+<colUsage columnID="4CD28B6A-1E1E-D853-49E5-914331FA6ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B4679C2-1F49-9653-E150-380597AD2859" name="Iznajmljuje_Skijas_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAC21B93-8480-21F5-6E66-1F5D56ACFBB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7882844A-4FCE-DDAD-0D93-A65966DC7766" name="Iznajmljuje_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>2D7AFCA9-DCCC-E10F-EBDF-8FBC1606F83F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD28B6A-1E1E-D853-49E5-914331FA6ABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

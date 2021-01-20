@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0D9E619-64E5-5829-E89B-0997DBF8AF51" containerWithKeyObject="342E0558-6A47-F73B-14D9-663AAEC96387" localFKIndex="CFAA755B-9763-3231-F181-2C0D39337D56" name="Pancerice_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>228BDF27-6D9E-A38E-ED34-2643136FEACD</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Oprema</referredTableLongName>
+<arc>702B6AAA-B2F9-62B5-C945-929A71FFD2C3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD388C5C-30B2-9DA4-5AE0-AD0CD2082FF7</referredTableID>
+<keyObject>7C1C9C16-48F2-E7D4-3329-D615548F5CE2</keyObject>
+<referredKeyID>7C1C9C16-48F2-E7D4-3329-D615548F5CE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idOpr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Pancerice</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

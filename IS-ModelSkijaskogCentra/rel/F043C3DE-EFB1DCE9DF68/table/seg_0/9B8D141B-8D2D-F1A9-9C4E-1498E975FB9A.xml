@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B8D141B-8D2D-F1A9-9C4E-1498E975FB9A" name="Skije">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>AC8687C0-E8D6-6A71-FFC0-2D9F558FD4B9</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpr" id="5C29CDE5-7E0B-D3D6-481D-7FF6198C945A">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:06 UTC</createdTime>
+<generatorID>B7706352-F2C2-607E-D679-0CA18AF92999</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="079BE88F-73DD-C556-CBA0-6B058A116410" referredColumn="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</associations>
+</Column>
+<Column name="visSij" id="1E934433-D891-8628-0EF2-1727BBCD87CE">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:16 UTC</createdTime>
+<generatorID>43A3232F-4921-85EF-DC4B-8E820D1BF7B8</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sirSij" id="DED81639-EAB7-EED4-5B6E-9D8E1C43FA9A">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:16 UTC</createdTime>
+<generatorID>4770EC45-7E6C-2C72-D398-076C5BB8C7E5</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipSij" id="6C83713E-E7FB-4EF5-7AC2-C6959326CCD3">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:16 UTC</createdTime>
+<generatorID>4B01A284-69FB-5193-5F45-2F18EB95E6BF</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11E5F7A2-7E87-7F41-A160-9AAC50CA68D7" name="Skije_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:06 UTC</createdTime>
+<generatorID>9AF78757-9765-2FD3-1DE9-FE64C8EB4D02</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C29CDE5-7E0B-D3D6-481D-7FF6198C945A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A681F9A1-1D68-CFE1-D41B-0CE1ED0D1B41" name="Skije_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>4B31B80A-E9EB-B8DD-8CF1-98372F8FB5B6</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C29CDE5-7E0B-D3D6-481D-7FF6198C945A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="624939F2-C6CF-48F0-77C1-FF187C599468" name="Licenca">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>D7B27B8D-8120-DA68-0039-61A11E26B60F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLIc" id="9B766C23-663C-72F4-B313-C34F3E23EA5F">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>8EA04103-A91B-E2C4-BE55-AEA5AECE58C2</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipLic" id="F3F9C5B0-22D6-7250-922E-1BCE53BBF31D">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>5E24DF64-8198-A1D8-AEC9-F41383E062E3</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datIzdLic" id="12D59DC3-0D89-549C-2C19-256C8B636371">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>D296EA7D-9B67-24DD-FD19-0B9D8CE7CAF3</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A052473E-D554-D551-DFF7-2AADA60D0538" name="Licenca_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>0BB6286A-38AA-43DE-E57A-1072846907C1</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B766C23-663C-72F4-B313-C34F3E23EA5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45C89EC4-5FBE-B01E-7FC2-6C423953B890" name="Stapovi">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>842386B5-17A8-E5CC-4ACC-11505C98B058</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpr" id="E37DFFBF-4015-F876-22CC-493215A51E5D">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:26 UTC</createdTime>
+<generatorID>B7706352-F2C2-607E-D679-0CA18AF92999</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8944D0D8-CE9A-268E-DAA3-70205B4DCD47" referredColumn="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</associations>
+</Column>
+<Column name="visStp" id="975EF954-AB37-AD24-E76B-E4F2C74CB424">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>4A5FCFC0-F105-DC91-B5A1-B8A705377B49</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D000FD4-04E0-74C4-E203-499B757B1C9E" name="Stapovi_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:26 UTC</createdTime>
+<generatorID>9AF78757-9765-2FD3-1DE9-FE64C8EB4D02</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37DFFBF-4015-F876-22CC-493215A51E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA86C2AF-1F87-4B27-EA91-737076ABE19E" name="Stapovi_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>1367EB56-DB06-91BE-D12D-5F49FE91B60C</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37DFFBF-4015-F876-22CC-493215A51E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

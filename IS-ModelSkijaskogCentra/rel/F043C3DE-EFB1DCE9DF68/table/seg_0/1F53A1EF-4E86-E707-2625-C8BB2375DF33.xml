@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F53A1EF-4E86-E707-2625-C8BB2375DF33" name="Kaciga">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>A30E31DE-E4F9-A52B-167D-C94B2E8C876F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpr" id="C2B8BC73-DC51-9606-4C97-0A816C52B2F3">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:51:49 UTC</createdTime>
+<generatorID>B7706352-F2C2-607E-D679-0CA18AF92999</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F81F424-F883-D83A-7483-9E062798E398" referredColumn="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</associations>
+</Column>
+<Column name="naoKcg" id="26B1F367-E0E5-DFB7-BA09-A0318C006050">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:06 UTC</createdTime>
+<generatorID>7F663F21-46A5-CFD7-659E-8B92603736C7</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14058513-012F-F760-CB3D-7F428472A6E3" name="Kaciga_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:51:49 UTC</createdTime>
+<generatorID>9AF78757-9765-2FD3-1DE9-FE64C8EB4D02</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B8BC73-DC51-9606-4C97-0A816C52B2F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="496050AB-C03F-2907-9DC9-7BF002599AF3" name="Kaciga_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>CB01155A-7C09-3166-858E-2359D1BB3637</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B8BC73-DC51-9606-4C97-0A816C52B2F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

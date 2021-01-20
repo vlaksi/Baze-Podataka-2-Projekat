@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342E0558-6A47-F73B-14D9-663AAEC96387" name="Pancerice">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>E1F330B7-20E8-5EDE-6E81-486BE5562650</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpr" id="4D67DA28-A966-A40F-02E4-41517535C95B">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:16 UTC</createdTime>
+<generatorID>B7706352-F2C2-607E-D679-0CA18AF92999</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0D9E619-64E5-5829-E89B-0997DBF8AF51" referredColumn="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</associations>
+</Column>
+<Column name="brPnc" id="4C5E361C-FE2E-FB0D-841B-DA8A1CE9F592">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:26 UTC</createdTime>
+<generatorID>28D321E6-FA06-9171-B7AF-BD47D4DE6687</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipPnc" id="B57243F0-6823-7AF2-77CF-F872E3EC6AED">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:26 UTC</createdTime>
+<generatorID>56B2A935-B859-5AB2-E057-025FDF215EA7</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tvrdPnc" id="B8844CCA-3810-2839-1629-42D9A83C7271">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:26 UTC</createdTime>
+<generatorID>F3D4B447-4B81-B5F0-8C3D-530CB0EF8F90</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EE0FBE7-8FCC-72CE-18E9-466D6C4792FF" name="Pancerice_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:16 UTC</createdTime>
+<generatorID>9AF78757-9765-2FD3-1DE9-FE64C8EB4D02</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D67DA28-A966-A40F-02E4-41517535C95B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFAA755B-9763-3231-F181-2C0D39337D56" name="Pancerice_Oprema_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>228BDF27-6D9E-A38E-ED34-2643136FEACD</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D67DA28-A966-A40F-02E4-41517535C95B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

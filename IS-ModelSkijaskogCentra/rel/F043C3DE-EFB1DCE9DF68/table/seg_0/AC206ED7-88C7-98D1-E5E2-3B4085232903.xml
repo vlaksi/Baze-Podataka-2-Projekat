@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC206ED7-88C7-98D1-E5E2-3B4085232903" name="Odvija">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CasSkijanja_idCski" id="44A2F93A-AB40-29AE-35A2-825C0D67CB3F">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4793019-84C9-DDE7-9DCB-AAA46B587A17" referredColumn="E77BF124-291D-E9D9-D9CB-2E82710FDAFA"/>
+</associations>
+</Column>
+<Column name="Staza_idStz" id="C17DB144-D4A9-9F73-7FAF-79ECC2D0D5D8">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A38C37-C0B5-6139-8B5F-D73A9C7F8BA1" referredColumn="19A07B35-29AB-6EC6-610D-990C37A8DCB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC4A2F18-422C-E196-F0BC-5DED0C42C0C9" name="Odvija_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A2F93A-AB40-29AE-35A2-825C0D67CB3F"/>
+<colUsage columnID="C17DB144-D4A9-9F73-7FAF-79ECC2D0D5D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A1E0188-B326-A0FF-7381-95D4BBA8080E" name="Odvija_CasSkijanja_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>68660F72-79D1-7D0E-4867-D41FBBF86850</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A2F93A-AB40-29AE-35A2-825C0D67CB3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB84368F-3052-64D4-737E-DF75C2DEC372" name="Odvija_Staza_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>68660F72-79D1-7D0E-4867-D41FBBF86850</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C17DB144-D4A9-9F73-7FAF-79ECC2D0D5D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

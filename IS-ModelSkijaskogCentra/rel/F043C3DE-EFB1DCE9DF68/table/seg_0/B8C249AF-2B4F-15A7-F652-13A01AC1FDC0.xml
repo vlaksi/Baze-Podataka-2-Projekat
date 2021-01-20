@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8C249AF-2B4F-15A7-F652-13A01AC1FDC0" name="Vozi">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rentiranje_Skijas_idSki" id="0E442BB9-5D6F-7E9B-303F-C8B57A2ED77E">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C890A9E3-FEB5-DF62-2B5E-8AC04A5552C6" referredColumn="DC91ED1F-EC09-ED24-3B32-05310D237774"/>
+</associations>
+</Column>
+<Column name="Rentiranje_SneznaVozila_idSv" id="A07D789E-6102-040D-8755-93059592A6EB">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C890A9E3-FEB5-DF62-2B5E-8AC04A5552C6" referredColumn="6888EDC7-894A-6B33-D397-18526753D9DB"/>
+</associations>
+</Column>
+<Column name="Staza_idStz" id="275AC261-D8B8-2070-46FA-5DC8C14B7CD2">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D5319F-19C4-082D-93D1-A84C92FD0FCB" referredColumn="19A07B35-29AB-6EC6-610D-990C37A8DCB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C74F2D72-BD41-0FF0-4CF7-A4EEFB7050B5" name="Vozi_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E442BB9-5D6F-7E9B-303F-C8B57A2ED77E"/>
+<colUsage columnID="A07D789E-6102-040D-8755-93059592A6EB"/>
+<colUsage columnID="275AC261-D8B8-2070-46FA-5DC8C14B7CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D105B315-446E-77A8-2716-0C79FA1870B0" name="Vozi_Rentiranje_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>A2E8A2B2-298C-8381-4645-ABA53FDB836A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E442BB9-5D6F-7E9B-303F-C8B57A2ED77E"/>
+<colUsage columnID="A07D789E-6102-040D-8755-93059592A6EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E602122-D85C-0CA8-BBCE-2E3099AFFFB9" name="Vozi_Staza_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>A2E8A2B2-298C-8381-4645-ABA53FDB836A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="275AC261-D8B8-2070-46FA-5DC8C14B7CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

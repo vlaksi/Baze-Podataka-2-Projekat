@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C890A9E3-FEB5-DF62-2B5E-8AC04A5552C6" containerWithKeyObject="B8C249AF-2B4F-15A7-F652-13A01AC1FDC0" localFKIndex="D105B315-446E-77A8-2716-0C79FA1870B0" name="Vozi_Rentiranje_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>A2E8A2B2-298C-8381-4645-ABA53FDB836A</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Rentiranje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FC4E6CE-62E6-5C7A-26CC-D95E8CEF3A60</referredTableID>
+<keyObject>7F42353A-6F31-B059-6F34-E1E26BF29106</keyObject>
+<referredKeyID>7F42353A-6F31-B059-6F34-E1E26BF29106</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Skijas_idSki,SneznaVozila_idSv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

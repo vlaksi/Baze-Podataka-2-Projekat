@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A5E1BCA-8151-2E2F-608D-C96C96EBA537" containerWithKeyObject="0FDA2431-55F1-BEB6-BA06-A92798BFEEE0" localFKIndex="8BC2065F-E340-DD3B-81EF-5C277438AB25" name="Koristi_SkiPass_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>AE215A96-68FE-2133-B950-0CB0A398CC9F</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>SkiPass</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>121F87CC-A51E-DF1C-DA9D-F0639ADF87AA</referredTableID>
+<keyObject>B99117C6-B3F8-DA30-16A9-E8CBCD1398E1</keyObject>
+<referredKeyID>B99117C6-B3F8-DA30-16A9-E8CBCD1398E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idSps</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

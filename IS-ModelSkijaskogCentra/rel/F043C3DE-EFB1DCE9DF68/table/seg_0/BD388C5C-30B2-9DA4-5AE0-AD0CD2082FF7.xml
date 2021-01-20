@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD388C5C-30B2-9DA4-5AE0-AD0CD2082FF7" name="Oprema">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>8E65A45B-02EC-0951-DDDA-49FB6E93F044</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idOpr" id="05B200A2-FBCC-79E4-2865-4395E2A8DB8D">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>B7706352-F2C2-607E-D679-0CA18AF92999</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipOpreme" id="123E95C8-56CB-4D1E-BADD-96B726962BBD">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:51:49 UTC</createdTime>
+<generatorID>54AF30AD-BF56-FE41-EADD-2B68ACEEF90E</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<constraintName>CH_INH_Oprema</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<listOfValues>
+<valueDef value="Kaciga" description="entity Kaciga"/>
+<valueDef value="Pancerice" description="entity Pancerice"/>
+<valueDef value="Skije" description="entity Skije"/>
+<valueDef value="Stapovi" description="entity Stapovi"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C1C9C16-48F2-E7D4-3329-D615548F5CE2" name="Oprema_PK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:50:49 UTC</createdTime>
+<generatorID>9AF78757-9765-2FD3-1DE9-FE64C8EB4D02</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B200A2-FBCC-79E4-2865-4395E2A8DB8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

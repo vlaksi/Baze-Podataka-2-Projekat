@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0F890C1-5127-623D-5BBB-9F6BD08737B9" containerWithKeyObject="A3533FC2-7CA9-5887-ED06-0ECEBD91DD6B" localFKIndex="E2640657-C6F4-4D76-D2D9-68B4CF3F6267" name="Ima_Licenca_FK">
+<createdBy>Vaksi</createdBy>
+<createdTime>2021-01-20 02:52:32 UTC</createdTime>
+<generatorID>073AB988-FAFD-BE31-FFA8-1F9498A387AF</generatorID>
+<ownerDesignName>IS-ModelSkijaskogCentra</ownerDesignName>
+<referredTableLongName>Licenca</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>624939F2-C6CF-48F0-77C1-FF187C599468</referredTableID>
+<keyObject>A052473E-D554-D551-DFF7-2AADA60D0538</keyObject>
+<referredKeyID>A052473E-D554-D551-DFF7-2AADA60D0538</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idLIc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
