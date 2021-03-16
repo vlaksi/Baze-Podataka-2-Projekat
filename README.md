@@ -1,7 +1,7 @@
 # Baze2-Projekat
 
 <details>
-  <summary> Specifikacija </summary> <br>
+  <summary> Primer specifikacija </summary> <br>
   
 ## Tektulna specifikacija
 
